@@ -131,7 +131,7 @@ const App = () => {
       return;
     }
 
-    //alert(`Post successfully created. After clicking OK, your new post tilted "${createdPost.title}" will show up in the table below.`);
+    alert(`Post successfully created. After clicking OK, your new post tilted "${createdPost.title}" will show up in the table below.`);
 
     getPosts();
   }
