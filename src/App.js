@@ -121,6 +121,7 @@ const App = () => {
       .catch((error) => {
         console.log(error);
         alert(error);
+        alert(process.env.NODE_ENV);
       });
   }
 
